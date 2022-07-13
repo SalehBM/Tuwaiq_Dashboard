@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Tuwaiq Dashboard | Users</title>
+    <style>
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            position: relative;
+            height: 325px;
+            width: 225px;
+            background: #191919;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        span {
+            color: #BBB;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            margin: 10px;
+        }
+
+        hr {
+            border-width: 1px 100px 1px;
+            color: skyblue;
+            opacity: 0.5;
+            margin-bottom: 30px;
+        }
+    </style>
+  </head>
+<body>
+    <div class="profile-card">
+        <img src="{{ url_for('templates', path='build/images/tuwaiq-logo.svg') }}" width="200" height="100"/>
+        <hr/>
+        <span>{{username}}</span>
+        <span>{{course}}</span>
+        <span>{{start_date}}</span>
+        <span>{{end_date}}</span>
+    </div>
+</body>
+</html>

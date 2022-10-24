@@ -24,12 +24,6 @@ The project has two APIs:
 
 The demo edition deployment in [heroku](https://heroku.com/)
 
-[Tuwaiq Dashboard](https://tuwaiqproject.herokuapp.com/login)
-
-`Username: GitHub`
-
-`Password: 123`
-
 ###### (/docs and /redoc are disabled in this project, you can enable by download it in your local computer and make changes in main.py)
 
 ## Tech Stack 
